@@ -1,0 +1,36 @@
+<?xml version="1.0"?> 
+<!--Декларация используемой версии языка-->
+<people>
+<!--Корневой элемент документа=-->
+	<person class="children">
+	<!--person дочерний узел (child node) корневого узла <people>, class имя атрибута и его значение равно children-->
+		<name>
+		<!--name, age, hobby потомки узла people и дочерние узлы person-->
+			<first_name>Ivan</first_name>
+			<!--first name, second name, surname потомки узла people и person и дочерние узлы name-->
+			<second_name>Ivanovich</second_name>
+			<surname>Ivanov</surname>
+		</name>
+		<age>8</age>
+		<hobby>football</hobby>
+	</person>
+	<person>
+		<name>
+			<first_name>Pyotr</first_name>
+			<second_name>Petrovich</second_name>
+			<surname>Petrov</surname>
+		</name>
+		<age>25</age>
+		<hobby>chess</hobby>
+	</person>
+	<person>
+		<name>
+			<first_name>Nikolay</first_name>
+			<second_name>Nikolayevich</second_name>
+			<surname>Nikolayev</surname>
+		</name>
+		<age>45</age>
+		<hobby>swimming</hobby>
+	</person>
+</people>
+<!--конец корневого элемента-->
